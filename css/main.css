@@ -88,6 +88,10 @@ a, a:focus {
   outline: 0;
 }
 
+strong{
+    font-weight: 500;
+}
+
 a:hover {
   color: #fab700!important;
   text-decoration: none!important;
