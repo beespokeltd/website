@@ -1927,7 +1927,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 210px;
     left: 27px;
     z-index: 102;
-    color: black;
+    color: #222;
     font-size: 14px;
 }
 #timer{
@@ -1937,7 +1937,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 190px;
     background-color: #fab700;
     z-index: 101;
-    color: black;
+    color: #222;
     font-weight: 600;
     font-size: 25px;
     border: .1px solid #fab700;
@@ -1946,6 +1946,65 @@ h1, h2, h3, h4, h5, h6 {
 
 #insta-feed{
     margin-bottom: 150px;
+}
+
+/*--------------------------------------------------------------
+# COUNTDOWN -- Timer on the event page
+--------------------------------------------------------------*/
+#event-info{
+    padding: 50px;
+}
+
+#event-info h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#view-map{
+    color: #222!important;
+}
+#view-map:hover{
+    color: #222!important;
+    font-weight: 700;
+}
+
+#ticket{
+    padding: 20px;
+    background-color: #fab700;
+    border: 2px solid #fab700;        
+    color: #222!important;
+    font-weight: 600;
+}
+#ticket:hover{
+    background-color: #fff!important;
+    border: 2px solid #fab700;        
+    color: #fab700!important;
+}
+
+#event-info strong{
+     font-weight:600;
+}
+#countdown{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fab700;
+        
+}
+#countdown h1{
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+
+#timer2{
+    background-color: #fab700;
+    font-size: 50px;
+    text-align: center;
+    color: #222;
+    font-weight: 700;
+    line-height: 70px;
 }
 
 
@@ -2440,6 +2499,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
 }
 
+.banner-area-about {
+    background: url(../img/lightdoor.jpeg) center;
+    background-size: cover;
+}
+
+.banner-area-event {
+  background: url(../img/tec.jpg) center;
+  background-size: cover;
+}
+
 @media (max-width: 767.98px) {
   .banner-area .fullscreen {
     height: 700px !important;
@@ -2733,21 +2802,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     top: 137px;
     left: 18px;
     z-index: 102;
-    color: black;
+    color: #222;
     font-size: 12px;
 }
 #timer{
     padding-top: 60px!important;
-        padding-bottom: 10px!important;
-
-        padding-right: 40px!important;
-
+    padding-bottom: 10px!important;
+    padding-right: 40px!important;
     padding: 22px;
     position: fixed;
     top: 100px;
     background-color: #fab700;
     z-index: 101;
-    color: black;
+    color: #222;
     font-weight: 600;
     font-size: 18px;
     border: .1px solid #fab700;
