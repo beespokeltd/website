@@ -1924,8 +1924,8 @@ h1, h2, h3, h4, h5, h6 {
 #timer-text{
     padding: 5px;
     position: fixed;
-    top: 210px;
-    left: 27px;
+    top: 220px;
+    left: 10px;
     z-index: 102;
     color: #222;
     font-size: 14px;
@@ -1934,7 +1934,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 50px!important;
     padding: 30px;
     position: fixed;
-    top: 190px;
+    top: 195px;
     background-color: #fab700;
     z-index: 101;
     color: #222;
@@ -2799,8 +2799,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #timer-text{
     padding: 5px;
     position: fixed;
-    top: 137px;
-    left: 18px;
+    top: 160px;
+    left: 8px;
     z-index: 102;
     color: #222;
     font-size: 12px;
@@ -2811,7 +2811,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-right: 40px!important;
     padding: 22px;
     position: fixed;
-    top: 100px;
+    top: 125px;
     background-color: #fab700;
     z-index: 101;
     color: #222;
