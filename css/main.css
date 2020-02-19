@@ -3323,6 +3323,40 @@ background-position: bottom;
   font-size: 12px;
 }
 
+#about-us-text{
+    line-height: 25px;
+    width: 90%;
+    font-size: 12pt;
+    font-weight: 500;
+    text-align: left!important;
+}
+#about-us-box a{
+    color: #fab700;
+}
+#about-us-box a:hover{
+    color: #222!important;
+}
+#about-us-box{
+    width: 90%!important;
+    text-align: left;
+    font-size: 12pt;
+    font-weight: 500;
+    line-height: 35px;
+}
+#about-sub{
+    width: 90%!important;
+    text-align: left;
+    font-size: 11pt;
+    font-weight: 300;
+    line-height: 15px;
+}
+#about-us-h3{
+    width: 90%!important;
+    text-align: left;
+    font-size: 16pt;
+    font-weight: 500;
+}
+
 #contact-form{
 }
 
